@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MATA - Registration</title>
+  <link href="assets/css/style.css" rel="stylesheet">  <!-- Main CSS -->
+  <!-- Vendor -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet"> -->
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header"class="navbar">
+
+    <div class="logo">
+      <h1 class="text-light title">
+        <a href="index.html">
+          <span><img src="assets/img/logo.png" class="img-flui"></a>&nbsp;Sentinels</span>
+      </h1> 
+    </div>
+    
+    <nav class="navbar">
+
+        <ul>
+          <li><a class="active navbtn" href="index.html">Home</a></li>
+          <li><a class="navbtn " href="about.html">Project</a></li>
+          <li><a class="navbtn " href="team.html">Team</a></li>
+          <!-- <li><a class="navbtn " href="registration.html">Login</a></li> -->
+        </ul>
+
+      </nav><!-- .navbar -->
+
+  </header>
+
+  <main id="main">
+
+    <!-- ======= Registration Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2></h2>
+          <ol>
+            <li>Registration</li>
+          </ol>
+        </div>
+      </div>
+    </section><!-- End Registration Section -->
+
+    <!-- ======= Registration Fill Out Section ======= -->
+    <section class="about" data-aos="fade-up">
+      <div class="container">
+
+        <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                
+                    <form method="POST">
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="form-group">
+                            <label for="first_name" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="first_name" name="first_name">
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="form-group">
+                            <label for="last_name" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="last_name" name="last_name">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <div class="form-group">
+                          <label for="birthday" class="form-label">Birthday</label>
+                          <div class="input-group">
+                            <input type="date" class="form-control js-datepicker" id="birthday" name="birthday">
+                            <!-- <button class="btn btn-outline-secondary" type="button" data-bs-toggle="datepicker">
+                              <i class="far fa-calendar"></i>
+                            </button> -->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <div class="form-group">
+                          <label for="gender" class="form-label">Gender</label>
+                          <div class="form-check">
+                            <input type="radio" class="form-check-input" id="male" name="gender" value="male" checked>
+                            <label class="form-check-label" for="male">Male</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="radio" class="form-check-input" id="female" name="gender" value="female">
+                            <label class="form-check-label" for="female">Female</label>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mb-3">
+                        <div class="form-group">
+                          <label for="address" class="form-label">Address</label>
+                          <input type="text" class="form-control" id="address" name="address">
+                        </div>
+                      </div>
+
+                      <div class="mb-3">
+                        <div class="form-group">
+                          <label for="phone" class="form-label">Company Name</label>
+                          <input type="text" class="form-control" id="ComName" name="Company Name">
+                        </div>
+                      </div> 
+
+                      <div class="mb-3">
+                        <div class="form-group">
+                          <label for="phone" class="form-label">Company Address</label>
+                          <input type="text" class="form-control" id="CamAdd" name="Company Address">
+                        </div>
+                      </div>
+
+                      <div class="mb-3">
+                        <div class="form-group">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <div class="form-group">
+                          <label for="phone" class="form-label">Phone Number</label>
+                          <input type="text" class="form-control" id="phone" name="phone">
+                        </div>
+                      </div>
+
+                      
+
+                      
+ 
+
+                      <div class="mb-3">
+                        <div class="form-group">
+                          <label for="password" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="password" name="password">
+                        </div>
+                      </div>
+
+                      <div class="mb-3">
+                        <div class="form-group">
+                          <label for="password" class="form-label">Confirm Password</label>
+                          <input type="password" class="form-control" id="confirmpassword" name="confirmpassword">
+                        </div>
+                      </div>
+
+                      <div class="mb-3">
+                        <div class="form-group">
+                          <label for="agree"><input type="checkbox" name="agree" id="agree"> By ticking, you are confirming that you have read, understood and agree to "null" <a href="termsandcondition.html">terms and conditions</a></label>
+                        </div>
+                      </div>
+
+
+
+                      <div class="mb-3">
+                        <div class="form-group">
+                          <input type="submit" value="Submit" >
+                         
+                          <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+                        <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+
+
+                        <script>
+                            var firebaseConfig = {
+                                      apiKey: "AIzaSyB6b0-t57y4WxVOz_kvGUitFrJe4GzT_Nk",
+                                      authDomain: "mata-fire-detection.firebaseapp.com",
+                                      databaseURL: "https://mata-fire-detection-default-rtdb.firebaseio.com",
+                                      projectId: "mata-fire-detection",
+                                      storageBucket: "mata-fire-detection.appspot.com",
+                                      messagingSenderId: "705390758600",
+                                      appId: "1:705390758600:web:d9525485caf9d6b79133fd",
+                                      measurementId: "G-6CYZ6PD5NY"
+                                    };
+                                     
+                                    // Initialize Firebase
+                                      firebase.initializeApp(firebaseConfig);
+                                      var db = firebase.firestore();
+
+                                                                                document.querySelector('#submit-button').addEventListener('click', function(event) {
+                                            event.preventDefault(); // prevent form from submitting
+
+                                            // Retrieve the form values
+                                            var firstName = document.querySelector('#first_name').value;
+                                            var lastName = document.querySelector('#last_name').value;
+                                            var birthday = document.querySelector('#birthday').value;
+                                            var gender = document.querySelector('input[name="gender"]:checked').value;
+                                            var address = document.querySelector('#address').value;
+                                            var comName = document.querySelector('#ComName').value;
+                                            var camAdd = document.querySelector('#CamAdd').value;
+                                            var email = document.querySelector('#email').value;
+                                            var phone = document.querySelector('#phone').value;
+                                            var password = document.querySelector('#password').value;
+                                            var confirmPassword = document.querySelector('#confirmpassword').value;
+                                            var agree = document.querySelector('#agree').checked;
+
+                                            // Create a new document in the "users" collection
+                                            db.collection("users").add({
+                                              firstName: firstName,
+                                              lastName: lastName,
+                                              birthday: birthday,
+                                              gender: gender,
+                                              address: address,
+                                              comName: comName,
+                                              camAdd: camAdd,
+                                              email: email,
+                                              phone: phone,
+                                              password: password,
+                                              confirmPassword: confirmPassword,
+                                              agree: agree
+                                            })
+                                            .then(function(docRef) {
+                                              console.log("Document written with ID: ", docRef.id);
+                                            })
+                                            .catch(function(error) {
+                                              console.error("Error adding document: ", error);
+                                            });
+
+                                            // Clear the form inputs
+                                            document.querySelector('#first_name').value = '';
+                                            document.querySelector('#last_name').value = '';
+                                            document.querySelector('#birthday').value = '';
+                                            document.querySelector('#address').value = '';
+                                            document.querySelector('#ComName').value = '';
+                                            document.querySelector('#CamAdd').value = '';
+                                            document.querySelector('#email').value = '';
+                                            document.querySelector('#phone').value = '';
+                                            document.querySelector('#password').value = '';
+                                            document.querySelector('#confirmpassword').value = '';
+                                            document.querySelector('#agree').checked = false;
+                                          });
+
+
+
+
+
+                        </script>
+
+
+
+                        </div>
+                      </div>
+
+      </div>
+    </section><br><br>
+
+  </main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="about.html">Project</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="team.html">Team</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>Contact Us</h4>
+          <p>
+            Congressional Rd Ext <br>
+            Barangay 171, Caloocan, Metro Manila<br>
+            Philippines <br><br>
+          </p>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-info">
+          <h3>MATA</h3>
+          <p>Unleash the full potential of your video analysis with our Motion and Tracking Application. Using Deep Learning and OpenCV, it delivers real-time object detection and tracking with unmatched accuracy and speed.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+  
+
+</body>
+
+</html>
