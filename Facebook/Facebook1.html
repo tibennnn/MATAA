@@ -1,0 +1,155 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>   <!--used to define the head section-->
+    <meta charset="UTF-8"> <!--specifies the character encoding for the HTML document-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Facebook - log in or sign up</title> <!--to define the title of the webpage-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--connection link to a font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--connection link to a font-->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins:wght@400;500;600;700&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet"> <!--connection link to a font-->
+    <link rel="stylesheet" href="Facebook.css"> <!--connection link for the css file-->
+</head> <!--end of head section-->
+<body> <!--main content of html file-->
+<main> <!--main content of the webpage-->
+
+
+    <!--Facebook and textbox-->
+
+    <div class="fbox"> <!--used to create a container with a specific style-->
+        <h1>facebook</h1> <!--top level heading-->
+        <h2>Connect with friends and the world <br>around you on Facebook.</h2> <!--heading of level 2-->
+        
+
+    </div><!--end of container-->
+
+
+<!--Container for login-->
+
+<div class="container"> <!--used to create a container with a specific style-->
+<div class="Form"> <!--used to create a container with a specific style for the login-->
+    <input type="text" class="text" placeholder="Email or phone number" id="email">
+<input type="password" class="text" placeholder="Password" id="password">
+<button onclick="validate()">Submit</button>
+
+<script>
+function validate() {
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+  
+  if (email === "" && password === "") {
+    alert("Email and Password field is required");
+    return false;
+  }
+  
+  
+  else if(email === "admin" && password === "123") {
+    alert("I MADE THIS FOR MYSELEF AND IM PROUD OF IT!");
+    return true;
+  }
+
+  else{
+    alert("Invalid email or password");
+  return false;
+  }
+  
+  // additional validation criteria can be added here
+  
+  // if validation passes, submit form or perform desired action
+alert("I MADE THIS FOR MYSELF AND IM PROUD OF IT!");
+  // code for submitting form or performing desired action
+}
+</script>
+
+
+
+
+
+    <!--Forgot pass button link-->
+
+   <p> <a href="">Forgot password?</a></p><!--blank link for forgot password-->
+
+   <div class="btn"> <!--create a container for btn-->
+    <button><a href="#">Create new account</a></button> <!--buttong with link inside-->
+
+</div> <!--end of container-->
+</div><!--end of container-->
+
+
+
+</div><!--end of container-->
+
+<!--for create page under login-->
+
+<div class="page"> <!--creates a container for page-->
+<p><a href="#">Create a page </a>for a celebrity, band or business.</p> <!--paragraph with a clickable link-->
+</div><!--end of container-->
+
+</main> <!--end of main content of page-->
+
+
+
+<!--footeeeeeeeeeeeeer-->
+
+<footer> <!--for footer section-->
+<div class="footer-contents"> <!--create container for footer contents-->
+
+<ol> <!--create an ordered list-->
+<li>English (Us)</li> <!--list-->
+<li><a href="#">Filipino</a></li> <!--list with clickable link-->
+<li><a href="#">Bisaya</a></li><!--list with clickable link-->
+<li><a href="#">Español</a></li><!--list with clickable link-->
+<li><a href="#">日本語</a></li><!--list with clickable link-->
+<li><a href="#">한국어</a></li><!--list with clickable link-->
+<li><a href="#">中文(简体)</a></li><!--list with clickable link-->
+<li><a href="#">العربية</a></li><!--list with clickable link-->
+<li><a href="#">Português (Brasil)</a></li><!--list with clickable link-->
+<li><a href="#">Français (France)</a></li><!--list with clickable link-->
+<li><a href="#">Deutsch</a></li><!--list with clickable link-->
+
+
+
+</ol><!--ending for ordered list-->
+
+<ol><!--opening for ordered list-->
+    <li><a href="#">Sign Up</a></li><!--list with clickable link-->
+    <li><a href="#">Log In</a></li><!--list with clickable link-->
+    <li><a href="#">Messenger</a></li><!--list with clickable link-->
+    <li><a href="#">Facebook Lite</a></li><!--list with clickable link-->
+    <li><a href="#">Watch</a></li><!--list with clickable link-->
+    <li><a href="#">Places</a></li><!--list with clickable link-->
+    <li><a href="#">Games</a></li><!--list with clickable link-->
+    <li><a href="#">Marketplace</a></li><!--list with clickable link-->
+    <li><a href="#">Meta Pay</a></li><!--list with clickable link-->
+    <li><a href="#">Meta Store</a></li><!--list with clickable link-->
+    <li><a href="#">Meta Quest</a></li><!--list with clickable link-->
+    <li><a href="#">Instagram</a></li><!--list with clickable link-->
+    <li><a href="#">Bulletin</a></li><!--list with clickable link-->
+    <li><a href="#">Fundraisers</a></li><!--list with clickable link-->
+    <li><a href="#">Services</a></li><!--list with clickable link-->
+    <li><a href="#">Voting Information Center</a></li><!--list with clickable link-->
+    <li><a href="#">Privacy Policy</a></li><!--list with clickable link-->
+    <li><a href="#">Privacy Center</a></li><!--list with clickable link-->
+    <li><a href="#">Groups</a></li><!--list with clickable link-->
+    <li><a href="#">About</a></li><!--list with clickable link-->
+    <li><a href="#">Create Ad</a></li><!--list with clickable link-->
+    <li><a href="#">Create Page</a></li><!--list with clickable link-->
+    <li><a href="#">Developers</a></li><!--list with clickable link-->
+    <li><a href="#">Careers</a></li><!--list with clickable link-->
+    <li><a href="#">Cookies</a></li><!--list with clickable link-->
+    <li><a href="#">Ad choices</a></li><!--list with clickable link-->
+    <li><a href="#">Terms</a></li><!--list with clickable link-->
+    <li><a href="#">Help</a></li><!--list with clickable link-->
+    <li><a href="#">Contact Uploading & Non-UsersSettings</a></li><!--list with clickable link-->
+
+
+</ol> <!--ening for ordered list-->
+<small>Meta © 2023</small>  <!--used to indicate smaller text-->
+</div> <!--end of container-->
+
+
+</footer> <!--ending of footer-->
+</body> <!--ending for the body-->
+</html> <!--closing tag for the html-->
